@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The CSEA Browser</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Logo -->
+      <h1 class="logo">CSEA</h1>
+
+      <!-- Search Bar -->
+      <form
+        action="https://www.google.com/search"
+        method="get"
+        target="_blank"
+        class="search-form"
+      >
+        <input
+          type="text"
+          name="q"
+          placeholder="Search CSEA or type a URL"
+          autofocus
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+
+      <!-- Buttons / Quick Links -->
+      <div class="button-container">
+        <button onclick="window.open('https://ucu.ac.ug', '_blank')">
+          UCU
+        </button>
+        <button onclick="window.open('https://cse-ucu.com', '_blank')">
+          CSE-UCU
+        </button>
+        <button onclick="window.open('https://education.go.ug', '_blank')">
+          Education
+        </button>
+        <button onclick="window.location.href='nextpage.html'">
+          Next Page
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
