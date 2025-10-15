@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+  background: url("car.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for the main content */
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo styling */
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  color: #4285f4;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+/* Search bar */
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-form input {
+  width: 400px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-form input:focus {
+  border-color: #4285f4;
+  box-shadow: 0 0 5px rgba(66, 133, 244, 0.5);
+}
+
+.search-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4285f4;
+  color: white;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-form button:hover {
+  background-color: #3367d6;
+}
+
+/* Buttons below search */
+.button-container {
+  margin-top: 30px;
+}
+
+.button-container button {
+  background-color: #f2f2f2;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.button-container button:hover {
+  background-color: #e8e8e8;
+  transform: scale(1.05);
+}
